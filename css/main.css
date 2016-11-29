@@ -1,10 +1,9 @@
-*{
-    outline: 1px solid red;
-}
-/*------------------header-----*/
+
+/*------------------header------y--section-*/
 .fondo{
     background-image: url(../image/large.jpg);
-    background-size: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 header{
    background-color:#393845; 
@@ -30,6 +29,7 @@ nav{
     margin-top: 120px;
     padding: 80px;
 }
+/*-------------------------header baner-----*/
 .header-baner{
     background-color: #4E5D9A;
     color:white;
@@ -75,6 +75,7 @@ nav{
 
 /*-----------------------------------separdor---*/
 .imagen {
+    margin: 40px;
     text-align: center;
 }
 .imagen img{
@@ -82,25 +83,26 @@ nav{
 }
 
 .imagen hr{
-    position: relative;
-   top: 40px;
+    margin-bottom: -50px;
     border: 1px solid #BFBFBF;
 }
 
-/**_______________________________________columnas---*/
-.logo{
-    width: 55%;
-    height: auto;
+/*______________section de ejemplos y video_________-----________________*/
+.embed-responsive embed-responsive-16by9{
+    margin: 10px;
 }
-
-.titulo
-{
-    font-size: justif;
-    position: relative;
-    top: 10px;
-    font-size: 38px;
+.titulo{
+   position: relative;
+    top: 12px;
+    margin: 0;
+    font-size: 40px;
     color: #51A7E8;
 }
+.logo,.logo-1{
+    width: 50%;
+    height: 50%;
+}
+
 .ejemplo p {
     margin-top:20px;
 }
@@ -109,22 +111,30 @@ nav{
     margin-left: 150px; 
     padding: 25px;
 }
-
+/*--------------------------------------------------section de pasos------*/
 .icono{
-    font-size: 40px;
+    font-size:40px;
     width: 60px;
     color: white;
     border-radius:200px;
-    margin-right:-30px;
+    margin: -25px;
+    position: relative;
+    right: 25px;
     background:#51A7E8;
 }
 .icono i {
-    display: inline-block;
     color: white;
-    border-radius: 200px;
+}
+.icono-2 img {
+    margin-left: -70px;
+}
+.icono-2 hr{
+   position: relative;
+    bottom: 70px;
 }
 .pasos{
-    margin: 30px;
+    margin-left:30px;
+    border-top-color: gray;
 }
 .pasos h4{
     font-size:30px;
@@ -143,9 +153,12 @@ nav{
 
 .columna{
    width: 100%;
-    height:500px;
+   height:500px;
+    margin: 15px;
 }
-/*-------------------------------------------cancer vero-------------*/
+/*------------------porque--------usar--------------------------------------*/
+
+
 .span{
     color: #51A7E8; 
 }
@@ -156,6 +169,7 @@ nav{
     
     width: 100%;
 }
+/*--------------------------section--baner-----prueva-----gratuita------*/
 .section-baner{
     background-color: #4E5D9A;
     color:white;
@@ -168,14 +182,10 @@ nav{
     font-size: 23px;
     padding: 9px;
     margin-top: 20px;
-    margin-left: 180px;
     border: 2px solid white;
     border-radius: 7px;
 }
-.section h3{
-   
-
-}
+/*-----------------------------------------------footer----------------------------*/
 footer {
   background:#393845;
     color: white;
@@ -183,14 +193,14 @@ footer {
     padding: 20px;
 }
 footer p, span{
-    margin: 10px
+    margin: 10px;
 }
 footer i {
-    position:relative;
-    left: 16em;
     margin: 10px;
     font-size: 30px;
     border-radius: 200px;
+}
+ 
 }
 footer span {
     color:#51A7E8; 
