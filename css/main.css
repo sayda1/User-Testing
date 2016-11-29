@@ -1,0 +1,203 @@
+*{
+    outline: 1px solid red;
+}
+/*------------------header-----*/
+.fondo{
+    background-image: url(../image/large.jpg);
+    background-size: 100%;
+}
+header{
+   background-color:#393845; 
+    opacity: 0.7;
+}
+.img-responsive{
+  margin-top: 25px;
+  
+}
+nav{
+    margin-top: 23px;
+    float: right;
+}
+.list-inline a{
+    text-decoration: none;
+    font-size:25px;
+    color: white;
+}
+.frases h2{
+    text-align: center;
+    color: white;
+    font-size: 55px;
+    margin-top: 120px;
+    padding: 80px;
+}
+.header-baner{
+    background-color: #4E5D9A;
+    color:white;
+    font-size: 20px;
+    padding: 20px;
+}
+.header-baner button{
+    background: #4E5D9A;
+    width: 220px;
+    font-size: 23px;
+    padding: 9px;
+    margin-top: 20px;
+    border: 2px solid white;
+    border-radius: 7px;
+    
+   
+}
+/*-------------------------------------------------------------nuestros----servisio*/
+.icon-container{
+    width: 150px;
+    height: 150px;
+    border-radius: 200px;
+    margin: 0 auto;
+    line-height: 150px;
+    font-size: 60px;
+    text-align: center;
+    box-shadow: -2px 2px 10px rgba(0,0,0,0.2);
+    color:skyblue;
+}
+.servises h3{
+    color: #51A7E8;
+    font-size: 35px;
+    padding: 25px;
+}
+.servises h4{
+    color: #36709C;
+    font-size: 20px;
+    padding: 15px;
+}
+.servises p{
+    padding: 10px;
+}
+
+/*-----------------------------------separdor---*/
+.imagen {
+    text-align: center;
+}
+.imagen img{
+    position: relative;
+}
+
+.imagen hr{
+    position: relative;
+   top: 40px;
+    border: 1px solid #BFBFBF;
+}
+
+/**_______________________________________columnas---*/
+.logo{
+    width: 55%;
+    height: auto;
+}
+
+.titulo
+{
+    font-size: justif;
+    position: relative;
+    top: 10px;
+    font-size: 38px;
+    color: #51A7E8;
+}
+.ejemplo p {
+    margin-top:20px;
+}
+
+.flecha{
+    margin-left: 150px; 
+    padding: 25px;
+}
+
+.icono{
+    font-size: 40px;
+    width: 60px;
+    color: white;
+    border-radius:200px;
+    margin-right:-30px;
+    background:#51A7E8;
+}
+.icono i {
+    display: inline-block;
+    color: white;
+    border-radius: 200px;
+}
+.pasos{
+    margin: 30px;
+}
+.pasos h4{
+    font-size:30px;
+}
+.pasos span {
+    color: margin-top:29px;;
+    font-size:20px;
+}
+
+.pasos li {
+    margin-top: 15px;
+}
+.pasos p {
+    margin-top:19px;
+}
+
+.columna{
+   width: 100%;
+    height:500px;
+}
+/*-------------------------------------------cancer vero-------------*/
+.span{
+    color: #51A7E8; 
+}
+.lista li{
+    margin-bottom: 15px;
+}
+.baner{
+    
+    width: 100%;
+}
+.section-baner{
+    background-color: #4E5D9A;
+    color:white;
+    font-size: 20px;
+    padding: 20px;
+}
+.section-baner button{
+    background: #4E5D9A;
+    width: 220px;
+    font-size: 23px;
+    padding: 9px;
+    margin-top: 20px;
+    margin-left: 180px;
+    border: 2px solid white;
+    border-radius: 7px;
+}
+.section h3{
+   
+
+}
+footer {
+  background:#393845;
+    color: white;
+    font-size: 15px;
+    padding: 20px;
+}
+footer p, span{
+    margin: 10px
+}
+footer i {
+    position:relative;
+    left: 16em;
+    margin: 10px;
+    font-size: 30px;
+    border-radius: 200px;
+}
+footer span {
+    color:#51A7E8; 
+}
+
+
+
+
+
+
