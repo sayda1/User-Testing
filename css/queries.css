@@ -1,0 +1,27 @@
+*{
+    outline: 1px solid red;
+}
+body{
+    background-image: url(../image/large.jpg);
+    background-position: center;
+    text-align: center;
+}
+.container{
+    text-align: center;
+}
+.container h1{
+   border-top:4px solid #7166FF;  
+}
+.formulario{
+    background: white;
+    width: 700px;
+    margin-left: 195px;
+}
+.buton{
+    color: white;
+   width:190px;
+    padding: 6px;
+    background-color:#7166FF;
+    border: none;
+    border-radius:3px;
+}
