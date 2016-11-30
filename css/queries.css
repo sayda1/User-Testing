@@ -4,24 +4,34 @@
 body{
     background-image: url(../image/large.jpg);
     background-position: center;
-    text-align: center;
 }
 .container{
+}
+form h1{
     text-align: center;
 }
-.container h1{
-   border-top:4px solid #7166FF;  
+form hr{
+    color: gray;
 }
-.formulario{
-    background: white;
-    width: 700px;
-    margin-left: 195px;
+form{
+    border-top:6px solid blue;
+    border-radius: 3px;
+    position: absolute;
+    top: 130px;
+    padding: 5px 42px;
+    width: 80%;
+    height: auto;
+    background-color:white;
 }
-.buton{
-    color: white;
-   width:190px;
-    padding: 6px;
-    background-color:#7166FF;
-    border: none;
-    border-radius:3px;
+
+.laboratoria span{
+    float: right;
 }
+.laboratoria a, span{
+    margin: 6px;
+    color: black;
+}
+.laboratoria span{
+    margin-top: -3px
+}
+
