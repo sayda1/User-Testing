@@ -1,51 +1,71 @@
 
-/*------------------header------y--section-*/
-.fondo{
+/*------------------header------y--fondo-*/
+body p{
+   font-family: 'Merriweather Sans', sans-serif;
+    font-size:17px;
+}
+*{
+    outline: 1px solid red;
+}
+li{
+  font-family: 'Merriweather Sans', sans-serif;
+    font-size:17px;  
+}
+
+header{
     background-image: url(../image/large.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
 }
-header{
-   background-color:#393845; 
-    opacity: 0.7;
-}
-.img-responsive{
-  margin-top: 25px;
-  
-}
-nav{
-    margin-top: 23px;
-    float: right;
-}
-.list-inline a{
-    text-decoration: none;
-    font-size:25px;
+.fondo{
+    background:rgba(31, 28, 28, 0.71); 
     color: white;
+    
 }
-.frases h2{
+.frases h1{
     text-align: center;
-    color: white;
-    font-size: 55px;
-    margin-top: 120px;
-    padding: 80px;
+    margin:120px 0px;
 }
+nav li a{
+	display: block;
+	padding: 15px 15px;
+	transition: all 0.2s;
+	border-radius: 6px;
+    font-size:18px;
+    color: white;
+}
+nav li a:hover, nav li a:focus, nav li a:active{
+	text-decoration: none;
+	outline: none;
+	background: #FFF;
+}
+#main-navigation{
+    z-index:503;
+	right: 10px;
+	margin: 10px 0 0 0;
+}
+#main-navigation ul{
+	background: rgba(0,0,0,0.7);
+	list-style: none;
+	padding: 10px;
+	border-radius: 5px;
+}
+.col-xs-6 img{
+    position: relative;
+    text-align: center;
+}
+
 /*-------------------------header baner-----*/
 .header-baner{
-    background-color: #4E5D9A;
+    background-color:rgba(31, 82, 198, 0.77);
     color:white;
-    font-size: 20px;
-    padding: 20px;
 }
 .header-baner button{
-    background: #4E5D9A;
-    width: 220px;
-    font-size: 23px;
-    padding: 9px;
-    margin-top: 20px;
+    margin-top: 15px;
+    background: none;
+    font-size: 20px;
+    padding: 10px 15px;
     border: 2px solid white;
     border-radius: 7px;
-    
-   
 }
 /*-------------------------------------------------------------nuestros----servisio*/
 .icon-container{
@@ -75,87 +95,83 @@ nav{
 
 /*-----------------------------------separdor---*/
 .imagen {
-    margin: 40px;
+    border-top: 1px solid gray;
     text-align: center;
+    margin: 50px;
 }
+
 .imagen img{
+    position: absolute;
+    z-index: 503;
+    transform: translateY(-50%) translateX(-50%);
+}
+/*______________section de ejemplos y video_________________________*/
+.embed-responsive-16by9{
+    margin: 10px;
+}
+.testing{
+    font-size:35px;
     position: relative;
-}
-
-.imagen hr{
-    margin-bottom: -50px;
-    border: 1px solid #BFBFBF;
-}
-
-/*______________section de ejemplos y video_________-----________________*/
-.embed-responsive embed-responsive-16by9{
-    margsin: 10px;
+    top:10px;
+    margin: 0px;
+    color: #0e83d8;
 }
 .titulo{
-   position: relative;
-    top: 12px;
-    margin: 0;
-    font-size: 40px;
-    color: #51A7E8;
+    font-size: 17px;
+}
+.flecha{
+    margin-left: 160px; 
+    padding: 25px;
 }
 .logo,.logo-1{
     width: 50%;
-    height: 50%;
+    
 }
-
 .ejemplo p {
     margin-top:20px;
 }
 
-.flecha{
-    margin-left: 150px; 
-    padding: 25px;
-}
 /*--------------------------------------------------section de pasos------*/
-.icono{
-    font-size:40px;
-    width: 60px;
-    color: white;
-    border-radius:200px;
-    margin: -25px;
-    position: relative;
-    right: 25px;
-    background:#51A7E8;
+.iconos{
+    position: absolute;
+    border-radius:40px;
+	background: #299ff4;
+	padding: 10px;
+	font-size: 25px;
+	color: #FFF;
+	transform: translateY(-50%);
+	margin-left: -70px;
 }
-.icono i {
-    color: white;
+.separador{
+    position: absolute;
+    z-index: 503;
+    top:22em;
+    transform: translateX(-50%);
+    margin-left: -45px;
+   top: 85%;
 }
-.icono-2 img {
-    margin-left: -70px;
+
+.pasos .row{
+    background-image: url(../image/sec-2.jpg);
+    background-size:contain;
+    margin:30px 0px;
 }
-.icono-2 hr{
-   position: relative;
-    bottom: 70px;
+.que-ago{
+    border-bottom: 1px solid #c4b7b7;
+    border-top: 1px solid #c4b7b7;
+    padding-right:29px;
+    background-color: white;
 }
-.pasos{
-    margin-left:30px;
-    border-top-color: gray;
-}
-.pasos h4{
+
+.que-ago h3{
     font-size:30px;
 }
-.pasos span {
-    color: margin-top:29px;;
+.que-ago span {
     font-size:20px;
+    color: #7cb6e8;
 }
 
-.pasos li {
-    margin-top: 15px;
-}
-.pasos p {
-    margin-top:19px;
-}
 
-.columna{
-   width: 100%;
-   height:500px;
-    margin: 15px;
-}
 /*------------------porque--------usar--------------------------------------*/
 
 
@@ -205,9 +221,36 @@ footer i {
 footer span {
     color:#51A7E8; 
 }
-
-
-
+/*-------------------------------los @medias--------------------*/ 
+@media screen and (max-width:999px)
+{
+.logo,.logo-1{
+    width: 49%;
+}
+    .testing{
+        font-size:35px;
+    }
+    .ejemplo ,.usar p{
+        padding: 10px;
+    }
+}
+@media screen and (max-width:999px)
+{
+    .pasos img{
+       top:31em; 
+	}
+    .que-ago{
+        border-radius: 12px;
+        margin: 32px;
+    }
+    
+}
+@media screen and (max-width:999px)
+{
+    .btn btn-primary{
+        font-size: 70px;
+    }  
+}
 
 
 
