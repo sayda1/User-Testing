@@ -4,9 +4,7 @@ body p{
    font-family: 'Merriweather Sans', sans-serif;
     font-size:17px;
 }
-*{
-    outline: 1px solid red;
-}
+
 li{
   font-family: 'Merriweather Sans', sans-serif;
     font-size:17px;  
@@ -119,6 +117,10 @@ nav li a:hover, nav li a:focus, nav li a:active{
 .titulo{
     font-size: 17px;
 }
+.titulo a{
+  font-size: 18px;  
+}
+
 .flecha{
     margin-left: 160px; 
     padding: 25px;
@@ -137,24 +139,24 @@ nav li a:hover, nav li a:focus, nav li a:active{
     border-radius:40px;
 	background: #299ff4;
 	padding: 10px;
-	font-size: 25px;
+	font-size: 27px;
 	color: #FFF;
 	transform: translateY(-50%);
-	margin-left: -70px;
+	margin-left: -50px;
 }
-.separador{
-    position: absolute;
-    z-index: 503;
-    top:22em;
-    transform: translateX(-50%);
-    margin-left: -45px;
-   top: 85%;
-}
+.vertical-divder{
+        border-top: 1px solid grey;
+        text-align: center;
+    }
+    .vertical-divder .separador{
+        position: absolute;
+        z-index: 1;
+        transform: translateY(-50%) translateX(-50%);
+    }
 
 .pasos .row{
     background-image: url(../image/sec-2.jpg);
     background-size:contain;
-    margin:30px 0px;
 }
 .que-ago{
     border-bottom: 1px solid #c4b7b7;
@@ -173,7 +175,9 @@ nav li a:hover, nav li a:focus, nav li a:active{
 
 
 /*------------------porque--------usar--------------------------------------*/
-
+.usar{
+    margin: 60px 0px;
+}
 
 .span{
     color: #51A7E8; 
@@ -220,9 +224,9 @@ footer i {
 }
 footer span {
     color:#51A7E8; 
-}
+} 
 /*-------------------------------los @medias--------------------*/ 
-@media screen and (max-width:999px)
+@media screen and (min-width:724px) and (max-width:990px)
 {
 .logo,.logo-1{
     width: 49%;
@@ -232,9 +236,11 @@ footer span {
     }
     .ejemplo ,.usar p{
         padding: 10px;
+        text-align: center;
     }
+    
 }
-@media screen and (max-width:999px)
+@media screen and (max-width:999px)and (max-width:990px)
 {
     .pasos img{
        top:31em; 
@@ -243,9 +249,11 @@ footer span {
         border-radius: 12px;
         margin: 32px;
     }
-    
+    .iconos{
+      display: none;
+    }
 }
-@media screen and (max-width:999px)
+@media screen and (max-width:999px)and (max-width:990px)
 {
     .btn btn-primary{
         font-size: 70px;
